@@ -1,22 +1,15 @@
 <template>
   <div>
-    <NavSite />
-    
+    ferf    
   </div>
 </template>
 
 <script>
-import NavSite from "../components/NavSite"
-
 export default {
-  name: 'HelloWorld',
-  components: {
-    NavSite
-  }
+  name: 'NavSite'
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 *, *:before, *:after {
   box-sizing: border-box;
