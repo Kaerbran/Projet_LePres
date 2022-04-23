@@ -1,21 +1,21 @@
 <template>
-  <HelloWorld/>
+  <div>
+    <h2>Le Lieux</h2>    
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'LeLieux'
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0px 0px 0px 0px ; // top right bottom left
 }
+
+//bandeau à définir
+
 </style>

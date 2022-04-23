@@ -1,17 +1,30 @@
 <template>
   <div>
     <NavSite />
-    
+
+    <div>
+      ici la page d'acceuil
+    </div>
+
+    <LaProgrammation />
+    <LesAnimations />
+    <LeLieux />
   </div>
 </template>
 
 <script>
 import NavSite from "../components/NavSite"
+import LaProgrammation from "../components/LaProgrammtion"
+import LesAnimations from "../components/LesAnimations"
+import LeLieux from "../components/LeLieux"
 
 export default {
   name: 'HelloWorld',
   components: {
-    NavSite
+    NavSite,
+    LaProgrammation,
+    LesAnimations,
+    LeLieux
   }
 }
 </script>
