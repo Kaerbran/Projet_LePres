@@ -3,7 +3,7 @@
     <p class="bandeau__date">24 Juin à partir de 18h</p>
     <div class="bandeau__achat">
         <button class="bandeau__achat__btt">Billeterie</button>
-        <img class="bandeau__achat__img" src="" alt="">    
+        <img class="bandeau__achat__img" src="../assets/Logo_BTS_without_background).png" alt="">    
     </div>    
   </div>
 </template>
@@ -37,8 +37,8 @@ export default {
         color: rgba(204, 96, 63, 1);
     }
     &__achat{
+        position: relative;
         margin-left: auto;
-
     }
     &__achat__btt {
         display:inline-block;
@@ -57,7 +57,10 @@ export default {
         position:relative;
     }
     &__achat__img{
-
+        width: 80px; height: 80px;
+        
+        position: relative;
+        top: 10px; left: -40px;
     }
 
 //Tuto pour centrer correctement les élements:
