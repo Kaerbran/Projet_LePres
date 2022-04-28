@@ -37,6 +37,5 @@ export default {
   margin: 0px 0px 0px 0px ; // top right bottom left
 }
 
-//bandeau à définir
 
 </style>

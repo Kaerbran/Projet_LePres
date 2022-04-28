@@ -33,7 +33,7 @@ export default {
         display: inline-block;
         margin: auto 0px auto auto ; // top right bottom left
 
-        font-family:'Monoton',sans-serif;
+        font-family:'Monoton',sans-serif; font-size: 1.5em;
         color: rgba(204, 96, 63, 1);
     }
     &__achat{

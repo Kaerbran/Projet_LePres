@@ -21,6 +21,8 @@
 
 <script>
 export default {
+//Code inspired from the below link:
+//https://morioh.com/p/1a0af750b8d7
     name: 'CountDown',
     props: ['starttime','endtime','trans'],
     data: function(){

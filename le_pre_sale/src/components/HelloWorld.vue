@@ -71,17 +71,8 @@ export default {
   display: flex;
   justify-content: center;
 
-  //overflow: auto;
   position: relative;
-
   width: auto; height: 90vh;
-
-  //background-image: url("../assets/P1020229 1.JPG");
-  //background-color: #cccccc; /* Used if the image is unavailable */
-  //background-size: cover;
-  //filter: saturate(100%);
-  //filter: brightness(1.5);
-  //height
   
   &:before{
     content: "";    
@@ -95,7 +86,7 @@ export default {
 
     display: block; 
     background-size:cover;
-    width: 110%; height: 110%;
+    width: 100%; height: 100%;
   }
 }
 
