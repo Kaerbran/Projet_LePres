@@ -1,12 +1,7 @@
 <template>
-  <div>
-    <h2>Les Animations</h2>
-    <div>
-        <picture>
-            <img src="" alt="">
-        </picture>
-        <p></p>
-    </div>   
+  <div class="container"> 
+      <h2 class="container__h2">Les Animations:</h2>
+      
   </div>
 </template>
 

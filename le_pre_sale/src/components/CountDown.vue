@@ -1,20 +1,20 @@
 <template>
-    <div>
+    <div class="flex">
         <div class="day">
-        <span class="number">{{ days }}</span>
-        <div class="format">{{ wordString.day }}</div>
-    </div>
-    <div class="hour">
-        <span class="number">{{ hours }}</span>
-        <div class="format">{{ wordString.hours }}</div>
-    </div>
-    <div class="min">
-        <span class="number">{{ minutes }}</span>
-        <div class="format">{{ wordString.minutes }}</div>
-    </div>
+            <span class="number">{{ days }}</span>
+            <div class="format">{{ wordString.day }}</div>
+        </div>
+        <div class="hour">
+            <span class="number">{{ hours }}</span>
+            <div class="format">{{ wordString.hours }}</div>
+        </div>
+        <div class="min">
+            <span class="number">{{ minutes }}</span>
+            <div class="format">{{ wordString.minutes }}</div>
+        </div>
         <div class="sec">
-        <span class="number">{{ seconds }}</span>
-        <div class="format">{{ wordString.seconds }}</div>
+            <span class="number">{{ seconds }}</span>
+            <div class="format">{{ wordString.seconds }}</div>
         </div>
     </div>
 </template>
@@ -98,14 +98,10 @@ export default {
 //  margin: 0px 0px 0px 0px ; // top right bottom left
 //}
 
-body{
-    background: #004D40;
-    text-align:center;
-    padding: 50px 0;
-    h1{
-        font-size:26px;
-        color: #fff;
-    }
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .timer {
@@ -121,11 +117,12 @@ body{
         text-align: center;
         margin: 0 5px;
         .format {
-            font-weight: 300; font-size: 14px;
-            //@include margin-start(5);
-            //display: inline-block;
+            font-size: 15px;
+            font-family:'Share',sans-serif;
+            font-weight: 600;
             opacity: 0.8;
             width: 60px;
+            padding: 5px 0px 5px 0px ; // top right bottom left
         }
     }
     .number{
@@ -141,24 +138,7 @@ body{
         font-weight: 400;
         margin-top: 5px;
     }
-    .status-tag{
-        width: 270px;
-        margin: 10px auto;
-        padding: 8px 0;
-        font-weight: 500;
-        color: #000;
-        text-align: center;
-        border-radius: 15px;
-        &.upcoming{
-            background-color: lightGreen;
-        }
-        &.running{
-            background-color: gold;
-        }
-        &.expired{
-            background-color: silver;
-        }
-    }
+
 }
 
 </style>

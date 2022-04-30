@@ -67,6 +67,13 @@ export default {
   margin: 0px 0px 0px 0px ; // top right bottom left
 }
 
+//mixin afin de pouvoir inclure des media dans sass
+@mixin media-device-max($_max-device-width){
+    @media screen and (max-device-width: $_max-device-width){
+        &{ @content; }
+    }
+}
+
 .main {
   display: flex;
   justify-content: center;
@@ -110,6 +117,12 @@ export default {
 
   &__p{
     margin: 0px auto 20px auto ; // top right bottom left
+    font-size: 15px;
+    font-family:'Share',sans-serif; //font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(204, 96, 63, 1);
+    padding: 0px 5px 0px 5px ; // top right bottom left
   }
   &__clock{
 
@@ -125,7 +138,8 @@ export default {
     text-decoration:none;
     font-family:'Monoton',sans-serif;
     text-transform:uppercase;
-    font-weight:400; font-size: 1.5em;
+    font-weight:400; 
+    font-size: 3vw; //clamp(1em, 1.5em, 1.5em)
     color:#FFFFFF;
     background-color:rgba(204, 96, 63, 1);
 

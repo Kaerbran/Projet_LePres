@@ -37,6 +37,12 @@ export default {
   margin: 0px 0px 0px 0px ; // top right bottom left
 }
 
+@mixin media-device-max($_max-device-width){
+    @media screen and (max-device-width: $_max-device-width){
+        &{ @content; }
+    }
+}
+
 .container{
 display: flex;
 flex-wrap: wrap;
@@ -65,10 +71,14 @@ justify-content: space-around;
 
     }
     &__div{
-        width: 250px;
+        width: 400px;
 
         margin: 0px 0px 0px 0px ; // top right bottom left
         padding: 0px 0px 0px 0px ; // top right bottom left
+
+        @include media-device-max(900px){
+            width: 150px
+        }
     }
     &__h3{
         font-family:'Monoton',sans-serif; font-size: 1em;
@@ -79,11 +89,13 @@ justify-content: space-around;
         &__img{
             width: 100%;
             object-fit: contain;
+            padding: 5px 0px 5px 0px ; // top right bottom left
         }
     }
     &__p{
         font-family:'Share',sans-serif; font-size: 1em;
         font-weight: 400;
+        padding: 5px 0px 5px 0px ; // top right bottom left
     }
 }
 
