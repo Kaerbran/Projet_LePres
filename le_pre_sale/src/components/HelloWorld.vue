@@ -29,7 +29,7 @@
           ></CountDown>
           <!--  End! Timer Component  -->
         </div>
-        <button class="timer__btt">
+        <button class="timer__btt" onclick="location.href='https://my.weezevent.com/les-pres-sales';">
           Billeterie
         </button>
       </div>
