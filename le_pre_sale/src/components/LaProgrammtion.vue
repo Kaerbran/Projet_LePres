@@ -96,6 +96,11 @@ justify-content: space-around;
         font-family:'Share',sans-serif; font-size: 1em;
         font-weight: 400;
         padding: 5px 0px 5px 0px ; // top right bottom left
+
+        @include media-device-max(900px){
+            overflow: auto;
+            height: 250px;
+        }
     }
 }
 

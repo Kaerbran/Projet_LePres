@@ -1,10 +1,6 @@
 <template>
   <div class="bandeau">
-    <p class="bandeau__date">24 Juin à partir de 18h</p>
-    <div class="bandeau__achat">
-        <button class="bandeau__achat__btt">Billeterie</button>
-        <img class="bandeau__achat__img" src="../assets/Logo_BTS_without_background).png" alt="">    
-    </div>    
+    <p class="bandeau__date">24 Juin à partir de 18h</p>   
   </div>
 </template>
 
@@ -15,7 +11,15 @@ export default {
 </script>
 
 <style scoped lang="scss">
+//import des polices d'écritures
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Share&display=swap');
+
+//mixin afin de pouvoir inclure des media dans sass
+@mixin media-device-max($_max-device-width){
+    @media screen and (max-device-width: $_max-device-width){
+        &{ @content; }
+    }
+}
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -31,41 +35,11 @@ export default {
 
     &__date{
         display: inline-block;
-        margin: auto 0px auto auto ; // top right bottom left
+        margin: auto ; 
 
         font-family:'Monoton',sans-serif; font-size: 1.5em;
         color: rgba(204, 96, 63, 1);
     }
-    &__achat{
-        position: relative;
-        margin-left: auto;
-    }
-    &__achat__btt {
-        display:inline-block;
-        padding:0.7em 1.4em;
-        margin:0 0.3em 0.3em 0;
-        border-radius:0.15em;
-        box-sizing: border-box;
-        text-decoration:none;
-        font-family:'Monoton',sans-serif;
-        text-transform:uppercase;
-        font-weight:400; font-size: 1em;
-        color:#FFFFFF;
-        background-color:rgba(204, 96, 63, 1);
-        box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
-        text-align:center;
-        position:relative;
-    }
-    &__achat__img{
-        width: 80px; height: 80px;
-        
-        position: relative;
-        top: 10px; left: -40px;
-    }
-
-//Tuto pour centrer correctement les élements:
-//https://stackoverflow.com/questions/38948102/center-one-and-right-left-align-other-flexbox-element
-
 }
 
 </style>

@@ -80,6 +80,11 @@ export default {
 
   position: relative;
   width: auto; height: 90vh;
+
+  @include media-device-max(900px){
+      flex-direction: column;
+      height: 70vh;
+  }
   
   &:before{
     content: "";    
@@ -139,13 +144,17 @@ export default {
     font-family:'Monoton',sans-serif;
     text-transform:uppercase;
     font-weight:400; 
-    font-size: 3vw; //clamp(1em, 1.5em, 1.5em)
     color:#FFFFFF;
     background-color:rgba(204, 96, 63, 1);
 
     box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
     text-align:center;
     position:relative;
+
+    font-size: 3vw;
+    @include media-device-max(900px){
+        font-size: 1em;
+    }
   }
 }
 
