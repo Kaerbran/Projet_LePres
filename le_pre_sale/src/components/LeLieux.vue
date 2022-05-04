@@ -1,15 +1,15 @@
 <template>
   <div class="container">
-      <h2 class="container__h2" >Le Lieux</h2>
+      <h2 class="container__h2" >Le Lieu</h2>
       <div class="container_2" >
-        <GoogleMap class="container__GoogleMap" api-key="YOUR_GOOGLE_MAPS_API_KEY" :center="center" :zoom="15">
+        <GoogleMap class="container__GoogleMap" :api-key="GoogleMapsKey" :center="center" :zoom="15">
           <Marker :options="{ position: center }" />
         </GoogleMap>
         <p class="container__p">
           <b>L'adresse :</b><br>
           Parc à daims - Festival Prés Salés<br>
           5B Avenue Nessel,<br>
-          68750 Soulatzmat<br>
+          68750 Soultzmatt<br>
         </p>
       </div>
   </div>
@@ -26,10 +26,15 @@ export default defineComponent({
 
     return { center };
   },
+  data() {
+    return {
+      GoogleMapsKey : process.env.GOOGLEMAPS_KEY,
+    }
+  },
 });
 
 //Code pour acceder à des variables .env
-//console.log(process.env.VUE_APP_NOT_SECRET_CODE)
+//console.log(process.env.GOOGLEMAPS_KEY)
 </script>
 
 <style scoped lang="scss">

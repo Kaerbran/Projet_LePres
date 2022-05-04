@@ -37,7 +37,7 @@ export default {
         display: inline-block;
         margin: auto ; 
 
-        font-family:'Monoton',sans-serif; font-size: 1.5em;
+        font-family:'Monoton',sans-serif; font-size: 4.5vw; //1.5em
         color: rgba(204, 96, 63, 1);
     }
 }

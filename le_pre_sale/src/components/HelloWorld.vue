@@ -4,7 +4,7 @@
 
     <div class="main">
       <picture class="pictures">
-        <img class="pictures__img" src="../assets/Affiche_découpe.jpg" alt="">
+        <img class="pictures__img" src="../assets/Affiche_découpe.jpg" alt="Affiche du festival de musique, Le Pré Salé">
       </picture>
       <div class="timer">
         <p class="timer__p">Le Pré Salé commence dans :</p>
@@ -37,6 +37,7 @@
 
     <LaProgrammation />
     <LesAnimations />
+    <LesSponsors />
     <LeLieux />
   </div>
 </template>
@@ -47,6 +48,9 @@ import LaProgrammation from "../components/LaProgrammtion"
 import LesAnimations from "../components/LesAnimations"
 import LeLieux from "../components/LeLieux"
 import CountDown from "../components/CountDown"
+import LesSponsors from "../components/LesSponsors"
+
+
 
 export default {
   name: 'HelloWorld',
@@ -55,7 +59,8 @@ export default {
     LaProgrammation,
     LesAnimations,
     LeLieux,
-    CountDown
+    CountDown,
+    LesSponsors
   }
 }
 </script>
@@ -104,7 +109,9 @@ export default {
 
 .pictures{
   margin: auto 0px auto 0px ; // top right bottom left
-  
+  @include media-device-max(900px){
+    margin: 10px auto auto auto ; // top right bottom left
+  }
   &__img{
     width: 100%; max-width: 600px;
     border-radius: 10%;
