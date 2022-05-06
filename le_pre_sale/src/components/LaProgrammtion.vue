@@ -22,6 +22,23 @@
           </picture>
           <p class="container__p">Une envolée de mots posée sur un groove de base Hip Hop. Les textes sentent le bon vin et s'appuient sur des sonorités swing ou funk permettant le déhanchement et la danse !</p>
       </div>
+      
+      <div class="container__div">
+          <h3 class="container__h3">Crucial Rob - Sound System<br>(REGGAE / DUB)</h3>
+          <picture class="container__picture">
+              <img class="container__picture__img" src="../assets/crucial_rob.jpg" alt="Groupe Crucial Rob">
+          </picture>
+          <p class="container__p">Paris / Orschwihr</p>
+      </div>
+      <div class="container__div">
+          <h3 class="container__h3">High Rockers - Sound System<br>(REGGAE / DUB)</h3>
+          <picture class="container__picture">
+              <img class="container__picture__img" src="../assets/high_rockers.jpg" alt="Groupe High Rockers">
+          </picture>
+          <p class="container__p">Genève</p>
+      </div>  
+
+
   </div>
 </template>
 
@@ -42,6 +59,11 @@ export default {
         &{ @content; }
     }
 }
+/*
+Crucial Rob:Sound System Reggae dub Paris/Orschwihr.
+
+High Rockers :Sound System Reggae dub Genève
+*/
 
 .container{
 display: flex;

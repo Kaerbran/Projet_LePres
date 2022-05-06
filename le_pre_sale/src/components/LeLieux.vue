@@ -9,7 +9,10 @@
           <b>L'adresse :</b><br>
           Parc à daims - Festival Prés Salés<br>
           5B Avenue Nessel,<br>
-          68750 Soultzmatt<br>
+          68750 Soultzmatt<br><br><br>
+
+          <b>Nous contacter :</b><br>
+          contact@balancetonson.alsace<br>
         </p>
       </div>
   </div>

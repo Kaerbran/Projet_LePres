@@ -11,13 +11,6 @@
     <div class="container__div">
         <h3 class="container__h3"></h3>
         <picture class="container__picture">
-            <img class="container__picture__img" src="../assets/LOGO_JULIENBOIS.jpg" alt="Logo de l'entreprise Projets Julien Bois">
-        </picture>
-        <p class="container__p"></p>
-    </div>
-    <div class="container__div">
-        <h3 class="container__h3"></h3>
-        <picture class="container__picture">
             <img class="container__picture__img" src="../assets/LOGO_DOMAINEMURE.jpg" alt="Logo de l'entreprise Projets Julien Bois">
         </picture>
         <p class="container__p"></p>
@@ -26,6 +19,34 @@
         <h3 class="container__h3"></h3>
         <picture class="container__picture">
             <img class="container__picture__img" src="../assets/LOGO_CROSSFER.png" alt="Logo de l'entreprise Projets Julien Bois">
+        </picture>
+        <p class="container__p"></p>
+    </div>
+    <div class="container__div">
+        <h3 class="container__h3"></h3>
+        <picture class="container__picture">
+            <img class="container__picture__img" src="../assets/LOGO_JULIENBOIS.jpg" alt="Logo de l'entreprise Projets Julien Bois">
+        </picture>
+        <p class="container__p"></p>
+    </div>
+    <div class="container__div">
+        <h3 class="container__h3"></h3>
+        <picture class="container__picture">
+            <img class="container__picture__img" src="../assets/LOGO_MAKITA.png" alt="Logo de l'entreprise Makita">
+        </picture>
+        <p class="container__p"></p>
+    </div>
+    <div class="container__div">
+        <h3 class="container__h3"></h3>
+        <picture class="container__picture">
+            <img class="container__picture__img" src="../assets/LOGO_DIAM.jpeg" alt="Logo de l'entreprise Noumatrouff">
+        </picture>
+        <p class="container__p"></p>
+    </div>
+    <div class="container__div">
+        <h3 class="container__h3"></h3>
+        <picture class="container__picture">
+            <img class="container__picture__img" src="../assets/LOGO_cellierMuhlbach.jpg" alt="Logo de l'entreprise Noumatrouff">
         </picture>
         <p class="container__p"></p>
     </div>
@@ -53,7 +74,14 @@
     <div class="container__div">
         <h3 class="container__h3"></h3>
         <picture class="container__picture">
-            <img class="container__picture__img" src="../assets/LOGO_REMYMULLER.jpg" alt="Logo de l'entreprise Remy Muller et Fils">
+            <img class="container__picture__img" src="../assets/LOG_MACK_IMPRESSION.png" alt="Logo de la société Mack Impressions">
+        </picture>
+        <p class="container__p"></p>
+    </div>
+    <div class="container__div">
+        <h3 class="container__h3"></h3>
+        <picture class="container__picture">
+            <img class="container__picture__img" src="../assets/LOGO_TTC.jpg" alt="Logo de l'entreprise TTC">
         </picture>
         <p class="container__p"></p>
     </div>
@@ -85,7 +113,7 @@ export default {
 .container{
 display: flex;
 flex-wrap: wrap;
-justify-content: space-around;
+justify-content: flex-start;
 
     &__h2{
         display: inline-block;

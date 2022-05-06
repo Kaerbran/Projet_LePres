@@ -25,6 +25,13 @@ Ouvrez grand vos yeux et profitez bien du spectacle !</p>
           <p class="container__p">Une belle exploitaion de Bovins et d'Ovins, située à Wintzfelden au fond de la Vallée Noble dans un joli écrin de verdure.</p>
       </div>
       <div class="container__div">
+          <h3 class="container__h3">Pipe Band</h3>
+          <picture class="container__picture">
+              <img class="container__picture__img" src="../assets/le-be-scott-piper-band-document-remis-photo-dr-1541525875.jpg" alt="un groupe de joueurs de cornemuse">
+          </picture>
+          <p class="container__p">Ensemble de cornemuses de la vallée noble</p>
+      </div>
+      <div class="container__div">
           <h3 class="container__h3">Du vin du Domaine Léon Boesch</h3>
           <picture class="container__picture">
               <img class="container__picture__img" src="../assets/Anim5_LeonBoesch.jpeg" alt="couple de vigneron dans la vigne">
@@ -51,6 +58,13 @@ Ouvrez grand vos yeux et profitez bien du spectacle !</p>
               <img class="container__picture__img" src="../assets/Sutter.jpg" alt="">
           </picture>
           <p class="container__p">L'Earl Sutter est une exploitation agricole familiale, située à Petit-Landau. On y cultive des légumes bio de saison.</p>
+      </div>
+      <div class="container__div">
+          <h3 class="container__h3">Du vin du Domaine Eric Rominger</h3>
+          <picture class="container__picture">
+              <img class="container__picture__img" src="../assets/claudine-rominger-vigneronne-a-westhalten-document-remis-1552067296.jpeg" alt="">
+          </picture>
+          <p class="container__p">Domaine familiale en production Biodynamique.</p>
       </div>
   </div>
 </template>
