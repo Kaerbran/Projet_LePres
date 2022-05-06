@@ -67,21 +67,25 @@ export default defineComponent({
   display: flex;
   flex-wrap: wrap;
 
+  background: black;
+
   &__h2{
     display: inline-block;
     width: 100vw;
 
     text-align: center;
-    font-family:'Monoton',sans-serif; font-size: 1.5em;
-    font-weight: 400;
-    color: rgba(204, 96, 63, 1);
+    font-family:'Berlin'; font-size: 1.5vw;
+    font-weight: 400; color: white;
+
+    background: rgb(252,176,69);
+    background: linear-gradient(190deg, rgba(131,58,180,1) 20%, rgba(253,29,29,1) 54%, rgba(252,176,69,1) 100%);
 
     margin: 30px 0px 30px 0px ; // top right bottom left
     padding: 0px 0px 0px 0px ; // top right bottom left
 
     &::before, &::after{
       content: "";
-      background: rgba(204, 96, 63, 1);
+      background: white;
       display: block;
       height: 2px;
       margin: 15px 0px 15px 0px ; // top right bottom left
@@ -99,8 +103,8 @@ export default defineComponent({
   &__p{
     margin: 0px 0px 0px 15px ; // top right bottom left
     
-    font-family:'Share',sans-serif; font-size: 1em;
-    font-weight: 400;
+    font-family:'Berlin'; font-size: 1em;
+    font-weight: 400; color: white;
   }
 }
 

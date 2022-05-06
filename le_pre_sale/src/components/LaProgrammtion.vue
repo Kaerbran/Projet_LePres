@@ -70,25 +70,29 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
 
+background: black;
+
     &__h2{
         display: inline-block;
         width: 100vw;
 
         text-align: center;
-        font-family:'Monoton',sans-serif; font-size: 1.5em;
+        font-family:'Berlin'; font-size: 3.5vw; //1.5em
         font-weight: 400;
-        color: rgba(204, 96, 63, 1);
+        color: white;
+
+        background: rgb(252,176,69);
+        background: linear-gradient(190deg, rgba(131,58,180,1) 20%, rgba(253,29,29,1) 54%, rgba(252,176,69,1) 100%);
 
         margin: 30px 0px 30px 0px ; // top right bottom left
         padding: 0px 0px 0px 0px ; // top right bottom left
 
         &::before, &::after{
             content: "";
-            background: rgba(204, 96, 63, 1);
+            background: white;
             display: block;
             height: 2px;
             margin: 15px 0px 15px 0px ; // top right bottom left
-
         }
 
     }
@@ -103,8 +107,8 @@ justify-content: space-around;
         }
     }
     &__h3{
-        font-family:'Monoton',sans-serif; font-size: 1em;
-        font-weight: 400;
+        font-family:'Berlin'; font-size: 1.5vw;
+        font-weight: 400; color: white;
         text-align: center;
     }
     &__picture{        
@@ -115,8 +119,8 @@ justify-content: space-around;
         }
     }
     &__p{
-        font-family:'Share',sans-serif; font-size: 1em;
-        font-weight: 400;
+        font-family:'Berlin'; font-size: 1em;
+        font-weight: 400; color: white;
         padding: 5px 0px 5px 0px ; // top right bottom left
 
         @include media-device-max(900px){

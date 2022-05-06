@@ -21,8 +21,10 @@
 
 <script>
 export default {
+
 //Code inspired from the below link:
 //https://morioh.com/p/1a0af750b8d7
+
     name: 'CountDown',
     props: ['starttime','endtime','trans'],
     data: function(){
@@ -118,7 +120,7 @@ export default {
         margin: 0 5px;
         .format {
             font-size: 15px;
-            font-family:'Share',sans-serif;
+            font-family:'Share',sans-serif; color: white;
             font-weight: 600;
             opacity: 0.8;
             width: 60px;
@@ -126,7 +128,9 @@ export default {
         }
     }
     .number{
-        background: rgba(217, 229, 192, 1);
+        //background: pink;
+        background: rgb(252,176,69);
+        background: linear-gradient(190deg, rgba(131,58,180,1) 20%, rgba(253,29,29,1) 54%, rgba(252,176,69,1) 100%);
         padding: 0 5px;
         border-radius: 5px;
         display: inline-block;

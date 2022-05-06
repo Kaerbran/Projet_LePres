@@ -1,10 +1,8 @@
 <template>
   <div>
-    <NavSite />
-
     <div class="main">
       <picture class="pictures">
-        <img class="pictures__img" src="../assets/Affiche_découpe.jpg" alt="Affiche du festival de musique, Le Pré Salé">
+        <img class="pictures__img" src="../assets/1_Affiche_PreSale.jpg" alt="Affiche du festival de musique, Le Pré Salé">
       </picture>
       <div class="timer">
         <p class="timer__p">Le Pré Salé commence dans :</p>
@@ -29,9 +27,16 @@
           ></CountDown>
           <!--  End! Timer Component  -->
         </div>
+        
         <button class="timer__btt" onclick="location.href='https://my.weezevent.com/les-pres-sales';">
           Billeterie
         </button>
+
+        <div class="ContainerBTT">
+          <img class="ContainerBTT__img ContainerBTT__img--left" src="../assets/social/facebook.png" onclick="location.href='https://www.facebook.com/PresSalesFestival/';" />
+          <img class="ContainerBTT__img ContainerBTT__img--right" src="../assets/social/instagram.png" onclick="redirect_to_login" />
+        </div>
+        
       </div>
     </div>
 
@@ -43,7 +48,6 @@
 </template>
 
 <script>
-import NavSite from "../components/NavSite"
 import LaProgrammation from "../components/LaProgrammtion"
 import LesAnimations from "../components/LesAnimations"
 import LeLieux from "../components/LeLieux"
@@ -55,7 +59,6 @@ import LesSponsors from "../components/LesSponsors"
 export default {
   name: 'HelloWorld',
   components: {
-    NavSite,
     LaProgrammation,
     LesAnimations,
     LeLieux,
@@ -72,6 +75,12 @@ export default {
   margin: 0px 0px 0px 0px ; // top right bottom left
 }
 
+//adding the new font
+@font-face {
+    font-family: Berlin;
+    src: url('../assets/fonts/Berlin Sans FB Regular.ttf');
+}
+
 //mixin afin de pouvoir inclure des media dans sass
 @mixin media-device-max($_max-device-width){
     @media screen and (max-device-width: $_max-device-width){
@@ -84,11 +93,11 @@ export default {
   justify-content: center;
 
   position: relative;
-  width: auto; height: 90vh;
+  width: auto; height: 130vh;
 
   @include media-device-max(900px){
       flex-direction: column;
-      height: 70vh;
+      height: 110vh;
   }
   
   &:before{
@@ -130,10 +139,10 @@ export default {
   &__p{
     margin: 0px auto 20px auto ; // top right bottom left
     font-size: 15px;
-    font-family:'Share',sans-serif; //font-size: 1em;
+    font-family:'Berlin'; //font-size: 1em;
     font-weight: 600;
     text-align: center;
-    color: rgba(204, 96, 63, 1);
+    color: white;
     padding: 0px 5px 0px 5px ; // top right bottom left
   }
   &__clock{
@@ -148,15 +157,22 @@ export default {
     box-sizing: border-box;
 
     text-decoration:none;
-    font-family:'Monoton',sans-serif;
+    font-family:'Berlin';
     text-transform:uppercase;
     font-weight:400; 
     color:#FFFFFF;
-    background-color:rgba(204, 96, 63, 1);
+
+    background: rgb(56,116,69);
+    background: linear-gradient(0deg, rgba(56,116,69,1) 0%, rgba(253,187,45,1) 100%);
+    //background-color:rgba(204, 96, 63, 1);
 
     box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
     text-align:center;
     position:relative;
+
+    &:hover{
+      cursor: pointer;
+    }
 
     font-size: 3vw;
     @include media-device-max(900px){
@@ -165,5 +181,23 @@ export default {
   }
 }
 
+.ContainerBTT{
+  display: flex;
+  margin: 10px auto 0px auto ; // top right bottom left
 
+  &__img{
+    width: 50px;
+
+    &:hover{
+      cursor: pointer;
+    }
+
+    &--left{
+      margin: 0px 10px 0px 0px ; // top right bottom left
+    }
+    &--right{
+      margin: 0px 0px 0px 10px ; // top right bottom left
+    }
+  }
+}
 </style>
