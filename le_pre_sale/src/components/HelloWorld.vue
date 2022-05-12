@@ -2,7 +2,7 @@
   <div>
     <div class="main">
       <picture class="pictures">
-        <img class="pictures__img" src="../assets/1_Affiche_PreSale.jpg" alt="Affiche du festival de musique, Le Pré Salé">
+        <img class="pictures__img" src="../assets/2_Affiche_PreSale.jpg" alt="Affiche du festival de musique, Le Pré Salé">
       </picture>
       <div class="timer">
         <p class="timer__p">Le Pré Salé commence dans :</p>

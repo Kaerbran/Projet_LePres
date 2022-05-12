@@ -28,10 +28,12 @@
           <picture class="container__picture">
               <img class="container__picture__img" src="../assets/crucial_rob.jpg" alt="Groupe Crucial Rob">
           </picture>
-          <p class="container__p">Paris / Orschwihr</p>
+          <p class="container__p">Nourrit d’univers musicaux et de cultures du monde entier, il est envieux de pouvoir concocter ses propres sonorités, il créé alors le Prophecy Studio. <br>
+
+C’est avec autant d’instruments organiques que de machines et synthétiseurs que Rob créé son univers musical et compose une musique cathartique puissante parfois hypnotique à la rythmique tribale et soutenue. </p>
       </div>
       <div class="container__div">
-          <h3 class="container__h3">High Rockers - Sound System<br>(REGGAE / DUB)</h3>
+          <h3 class="container__h3">High Steppa - Sound System<br>(REGGAE / DUB)</h3>
           <picture class="container__picture">
               <img class="container__picture__img" src="../assets/high_rockers.jpg" alt="Groupe High Rockers">
           </picture>

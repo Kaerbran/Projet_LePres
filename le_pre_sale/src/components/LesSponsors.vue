@@ -52,7 +52,7 @@
     </div>
     <div class="container__div">
         <picture class="container__picture">
-            <img class="container__picture__img" src="../assets/LOGO_BERNARD_KOUTNY.jpg" alt="Logo de l'entreprise Bernanrd Koutny">
+            <img class="container__picture__img" src="../assets/LOGO_BERNARD_KOUTNY2.jpg" alt="Logo de l'entreprise Bernanrd Koutny">
         </picture>
     </div>
     <div class="container__div">
@@ -93,7 +93,11 @@ export default {
 .container{
 display: flex;
 flex-wrap: wrap;
-justify-content: space-around;
+justify-content: flex-start;
+
+@include media-device-max(900px){
+    justify-content: space-around;
+}
 
 background: rgb(252,176,69);
 background: linear-gradient(190deg, rgba(131,58,180,1) 20%, rgba(253,29,29,1) 54%, rgba(252,176,69,1) 100%);
@@ -124,6 +128,7 @@ background: linear-gradient(190deg, rgba(131,58,180,1) 20%, rgba(253,29,29,1) 54
     }
     &__div{
         width: 150px;
+        margin: 0px 5px 0px 0px ; // top right bottom left
     }
     &__picture{      
         display: flex;
