@@ -38,6 +38,13 @@ C’est avec autant d’instruments organiques que de machines et synthétiseurs
               <img class="container__picture__img" src="../assets/high_rockers.jpg" alt="Groupe High Rockers">
           </picture>
           <p class="container__p">Genève</p>
+      </div>
+      <div class="container__div">
+          <h3 class="container__h3">A.B.S. - Sound System<br>(REGGAE / DUB)</h3>
+          <picture class="container__picture">
+              <img class="container__picture__img" src="../assets/ABS_SoundSystem.jpg" alt="Groupe A.B.S">
+          </picture>
+          <p class="container__p">Clermont Ferrand</p>
       </div>  
 
 
