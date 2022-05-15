@@ -100,6 +100,9 @@ background: black;
     &__presentation{
         color: white;
         padding: 20px 10vw 0px 10vw ; // top right bottom left
+
+        font-family:'Berlin'; font-size: 1em;
+        font-weight: 400; color: white;
     }
 
     &__h2{
@@ -128,6 +131,7 @@ background: black;
     }
     &__div{
         width: 400px;
+        position: relative;
 
         margin: 0px 0px 0px 0px ; // top right bottom left
         padding: 0px 0px 0px 0px ; // top right bottom left
@@ -141,8 +145,7 @@ background: black;
         font-weight: 400; color: white;
         text-align: center;
     }
-    &__picture{      
-        position: relative;  
+    &__picture{        
         &__img{
             width: 100%;
             object-fit: contain;
@@ -150,11 +153,11 @@ background: black;
         }
         &__youtube{
             position: absolute;
-            top: -250px; left: 0px; 
+            top: 70px; left: 0; right: 0;
             width: 50px; height: 50px;
 
             @include media-device-max(900px){
-                top: -85px; left: 0px; 
+                top: 25px; left: 0; right: 0; 
                 width: 20px; height: 20px;
             }
 
