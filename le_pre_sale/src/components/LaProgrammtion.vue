@@ -150,6 +150,10 @@ background: black;
             top: -250px; left: 0px; 
 
             width: 50px; height: 50px;
+            
+            &:hover{
+                cursor: pointer;
+            }
         }
     }
     &__p{
