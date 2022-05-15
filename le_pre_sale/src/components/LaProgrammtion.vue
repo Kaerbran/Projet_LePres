@@ -1,10 +1,23 @@
 <template>
-  <div class="container"> 
+  <div class="container">
+      <div class="container__presentation">
+          Prés salés []<br>
+          (traduction de l'alsacien Sàltz Màtt ou Soultzmatt)<br><br>
+          Le Festival Prés Salés c'est quoi?<br><br>
+          C'est l'alchemie de sept personnalités habitées par les mêmes passions, guidées par les mêmes convictions. C'est 
+          l'envie de partager, par le biais d'un évènement éphémère, l'amour de la musique, des arts et de la culture. De créer
+          des liens, de l'échange, sans limite de la culture. Les Prés Salés c'est comme un bon vin qu'on déguste entre copains 
+          à refaire le monde un soir d'été. Cette première édition se voudra exclusivement musicale. Elle sera dansant, funk, 
+          groove, rock, folk et poétique. Les Prés Salés s'associent avec les acteurs locaux pour vous proposer une restauration 
+          faire de produits saints et de qualités.<br>
+          Venez éveiller vos sens et régalez vos papilles! 
+      </div>
       <h2 class="container__h2">La Programmation:</h2>
       <div class="container__div">
           <h3 class="container__h3">Thibaut Sibella <br>(WildPoP / Funk)</h3>
           <picture class="container__picture">
               <img class="container__picture__img" src="../assets/Thibaut-sibella-Groupe.jpg" alt="Thibaut Sibella et son groupe">
+              <img class="container__picture__youtube" src="../assets/social/facebook.png" onclick="location.href='https://www.facebook.com/PresSalesFestival/';" />
           </picture>
           <p class="container__p">Thibaut Sibella and the Graveyard Shift proposent des compositions originales folk pleines de mélodies et d’émotions à travers laquelle ils dépeignent des histoires, des rencontres, des souvenirs. Une guitare, un banjo, une contre basse et trois voix au service d’une musique inspirée par la folk bluegrass/indie et le rock des années 60 qui se veut pleine de bonnes vibrations.</p>
       </div>
@@ -81,6 +94,11 @@ justify-content: space-around;
 
 background: black;
 
+    &__presentation{
+        color: white;
+        padding: 20px 150px 0px 150px ; // top right bottom left
+    }
+
     &__h2{
         display: inline-block;
         width: 100vw;
@@ -120,11 +138,18 @@ background: black;
         font-weight: 400; color: white;
         text-align: center;
     }
-    &__picture{        
+    &__picture{      
+        position: relative;  
         &__img{
             width: 100%;
             object-fit: contain;
             padding: 5px 0px 5px 0px ; // top right bottom left
+        }
+        &__youtube{
+            position: absolute;
+            top: -250px; left: 0px; 
+
+            width: 50px; height: 50px;
         }
     }
     &__p{
