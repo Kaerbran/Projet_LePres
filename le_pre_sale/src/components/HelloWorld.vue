@@ -100,6 +100,11 @@ export default {
       height: 110vh;
   }
   
+  @include media-device-max(670px){
+      flex-direction: column;
+      height: 125vh;
+  }
+
   &:before{
     content: "";    
     background-image: url("../assets/P1020229 1.JPG");

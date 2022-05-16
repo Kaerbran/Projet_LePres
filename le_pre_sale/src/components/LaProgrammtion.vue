@@ -4,13 +4,13 @@
           Prés salés [pʁe sale]<br>
           (traduction de l'alsacien Sàltz Màtt ou Soultzmatt)<br><br>
           Le Festival Prés Salés c'est quoi?<br><br>
-          C'est l'alchemie de sept personnalités habitées par les mêmes passions, guidées par les mêmes convictions. C'est 
+          C'est l'alchimie de sept personnalités habitées par les mêmes passions, guidées par les mêmes convictions. C'est 
           l'envie de partager, par le biais d'un évènement éphémère, l'amour de la musique, des arts et de la culture. De créer
-          des liens, de l'échange, sans limite de la culture. Les Prés Salés c'est comme un bon vin qu'on déguste entre copains 
-          à refaire le monde un soir d'été. Cette première édition se voudra exclusivement musicale. Elle sera dansant, funk, 
+          des liens, de l'échange. Les Prés Salés c'est comme un bon vin qu'on déguste entre copains 
+          à refaire le monde un soir d'été. Cette première édition se voudra exclusivement musicale. Elle sera dansante, funk, 
           groove, rock, folk et poétique. Les Prés Salés s'associent avec les acteurs locaux pour vous proposer une restauration 
-          faire de produits saints et de qualités.<br>
-          Venez éveiller vos sens et régalez vos papilles! 
+          faites de produits saints et de qualités.<br>
+          Venez éveiller vos sens et régaler vos papilles! 
       </div>
       <h2 class="container__h2">La Programmation:</h2>
       <div class="container__div">

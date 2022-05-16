@@ -50,7 +50,7 @@ Ouvrez grand vos yeux et profitez bien du spectacle !</p>
           <picture class="container__picture">
               <img class="container__picture__img" src="../assets/Bierestaal.jpg" alt="l'équipe de la brasserie Taal">
           </picture>
-          <p class="container__p">Brasseur de bière artisanale depuis 2017 à Soultzbach-les-Bains.</p>
+          <p class="container__p">Brasseur de bière artisanale depuis 2019 à Wihr au Val.</p>
       </div>
       <div class="container__div">
           <h3 class="container__h3">Earl Sutter</h3>

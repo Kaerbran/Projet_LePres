@@ -42,7 +42,7 @@
     </div>
     <div class="container__div">
         <picture class="container__picture">
-            <img class="container__picture__img container__picture__img--hover" src="../assets/LOGO_cellierMuhlbach.jpg" alt="Logo de l'entreprise Noumatrouff" onclick="location.href='https://www.noumatrouff.fr/';">
+            <img class="container__picture__img container__picture__img--hover" src="../assets/LOGO_cellierMuhlbach.png" alt="Logo de l'entreprise Noumatrouff" onclick="location.href='https://www.noumatrouff.fr/';">
         </picture>
     </div>
     <div class="container__div">
