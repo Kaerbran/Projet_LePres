@@ -9,7 +9,7 @@
           des liens, de l'échange. Les Prés Salés c'est comme un bon vin qu'on déguste entre copains 
           à refaire le monde un soir d'été. Cette première édition se voudra exclusivement musicale. Elle sera dansante, funk, 
           groove, rock, folk et poétique. Les Prés Salés s'associent avec les acteurs locaux pour vous proposer une restauration 
-          faites de produits saints et de qualités.<br>
+          faite de produits sains et de qualités.<br>
           Venez éveiller vos sens et régaler vos papilles! 
       </div>
       <h2 class="container__h2">La Programmation:</h2>
