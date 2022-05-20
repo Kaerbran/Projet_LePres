@@ -34,7 +34,7 @@
 
         <div class="ContainerBTT">
           <img class="ContainerBTT__img ContainerBTT__img--left" src="../assets/social/facebook.png" onclick="location.href='https://www.facebook.com/PresSalesFestival/';" />
-          <img class="ContainerBTT__img ContainerBTT__img--right" src="../assets/social/instagram.png" onclick="redirect_to_login" />
+          <img class="ContainerBTT__img ContainerBTT__img--right" src="../assets/social/instagram.png" onclick="location.href='https://www.instagram.com/festival_pres_sales/';" />
         </div>
         
       </div>

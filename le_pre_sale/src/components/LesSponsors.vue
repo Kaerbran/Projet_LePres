@@ -31,7 +31,7 @@
         </div>
         <div class="container__div">
             <picture class="container__picture">
-                <img class="container__picture__img container__picture__img--marge" src="../assets/LOGO_SourcesSOULTZMATT.jpg" alt="Logo de l'entreprise Sources de Soultzmatt">
+                <img class="container__picture__img container__picture__img--marge container__picture__img--hover" src="../assets/LOGO_SourcesSOULTZMATT.jpg" alt="Logo de l'entreprise Sources de Soultzmatt" onclick="location.href='http://www.lisbeth.fr/';"> 
             </picture>
         </div>
     </div>
@@ -68,6 +68,21 @@
     <div class="container__div">
         <picture class="container__picture">
             <img class="container__picture__img" src="../assets/LOGO_Henninger.jpg" alt="Logo de l'entreprise Henninger">
+        </picture>
+    </div>
+    <div class="container__div">
+        <picture class="container__picture">
+            <img class="container__picture__img container__picture__img--hover" src="../assets/LOGO_MeilleurTaux.png" alt="Logo de l'entreprise française meilleur taux" onclick="location.href='http://www.meilleurtaux.com/';">
+        </picture>
+    </div>
+    <div class="container__div">
+        <picture class="container__picture">
+            <img class="container__picture__img" src="../assets/LOGO_AQUATEC.png" alt="Logo de l'entreprise Aquatec">
+        </picture>
+    </div>
+    <div class="container__div">
+        <picture class="container__picture">
+            <img class="container__picture__img container__picture__img--hover" src="../assets/LOGO_CAPVISION.png" alt="Logo de l'entreprise Capvision" onclick="location.href='http://www.capvision.fr/';">
         </picture>
     </div>
   </div>
