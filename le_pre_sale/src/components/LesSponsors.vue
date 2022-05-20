@@ -40,20 +40,39 @@
             <img class="container__picture__img container__picture__img--hover" src="../assets/LOGO_DIAM.jpeg" alt="Logo de l'entreprise Noumatrouff" onclick="location.href='https://www.diam-bouchon-liege.com/';">
         </picture>
     </div>
-    <div class="container__div">
+    <div>
+        <div class="container__div">
+            <picture class="container__picture">
+                <img class="container__picture__img container__picture__img--hover container__picture__img--marge" src="../assets/LOGO_cellierMuhlbach.png" alt="Logo de l'entreprise Noumatrouff" onclick="location.href='https://www.noumatrouff.fr/';">
+            </picture>
+        </div>
+        <div class="container__div">
+            <picture class="container__picture">
+                <img class="container__picture__img container__picture__img--hover container__picture__img--marge" src="../assets/LOGO_MeilleurTaux.png" alt="Logo de l'entreprise française meilleur taux" onclick="location.href='http://www.meilleurtaux.com/';">
+            </picture>
+        </div>
+        <div class="container__div">
         <picture class="container__picture">
-            <img class="container__picture__img container__picture__img--hover" src="../assets/LOGO_cellierMuhlbach.png" alt="Logo de l'entreprise Noumatrouff" onclick="location.href='https://www.noumatrouff.fr/';">
+            <img class="container__picture__img container__picture__img--marge" src="../assets/LOGO_Henninger.jpg" alt="Logo de l'entreprise Henninger">
         </picture>
+    </div>
     </div>
     <div class="container__div">
         <picture class="container__picture">
             <img class="container__picture__img" src="../assets/LOGO_NOUMATROUFF.png" alt="Logo de l'entreprise Noumatrouff">
         </picture>
     </div>
-    <div class="container__div">
-        <picture class="container__picture">
-            <img class="container__picture__img" src="../assets/LOGO_BERNARD_KOUTNY2.jpg" alt="Logo de l'entreprise Bernanrd Koutny">
-        </picture>
+    <div>
+        <div class="container__div">
+            <picture class="container__picture">
+                <img class="container__picture__img container__picture__img--marge" src="../assets/LOGO_BERNARD_KOUTNY2.jpg" alt="Logo de l'entreprise Bernanrd Koutny">
+            </picture>
+        </div>
+        <div class="container__div">
+            <picture class="container__picture">
+                <img class="container__picture__img container__picture__img--hover container__picture__img--marge" src="../assets/LOGO_CAPVISION.png" alt="Logo de l'entreprise Capvision" onclick="location.href='http://www.capvision.fr/';">
+            </picture>
+        </div>
     </div>
     <div class="container__div">
         <picture class="container__picture">
@@ -67,22 +86,7 @@
     </div>
     <div class="container__div">
         <picture class="container__picture">
-            <img class="container__picture__img" src="../assets/LOGO_Henninger.jpg" alt="Logo de l'entreprise Henninger">
-        </picture>
-    </div>
-    <div class="container__div">
-        <picture class="container__picture">
-            <img class="container__picture__img container__picture__img--hover" src="../assets/LOGO_MeilleurTaux.png" alt="Logo de l'entreprise française meilleur taux" onclick="location.href='http://www.meilleurtaux.com/';">
-        </picture>
-    </div>
-    <div class="container__div">
-        <picture class="container__picture">
             <img class="container__picture__img" src="../assets/LOGO_AQUATEC.png" alt="Logo de l'entreprise Aquatec">
-        </picture>
-    </div>
-    <div class="container__div">
-        <picture class="container__picture">
-            <img class="container__picture__img container__picture__img--hover" src="../assets/LOGO_CAPVISION.png" alt="Logo de l'entreprise Capvision" onclick="location.href='http://www.capvision.fr/';">
         </picture>
     </div>
   </div>

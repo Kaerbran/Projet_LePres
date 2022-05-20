@@ -97,7 +97,7 @@ export default {
 
   @include media-device-max(900px){
       flex-direction: column;
-      height: 110vh;
+      height: 90vh;
   }
   
   @include media-device-max(670px){
@@ -124,7 +124,7 @@ export default {
 .pictures{
   margin: auto 0px auto 0px ; // top right bottom left
   @include media-device-max(900px){
-    margin: 10px auto auto auto ; // top right bottom left
+    margin: 10px auto 0 auto ; // top right bottom left
   }
   &__img{
     width: 100%; max-width: 600px;
