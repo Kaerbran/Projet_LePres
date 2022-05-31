@@ -35,6 +35,7 @@
         <div class="ContainerBTT">
           <img class="ContainerBTT__img ContainerBTT__img--left" src="../assets/social/facebook.png" onclick="location.href='https://www.facebook.com/PresSalesFestival/';" />
           <img class="ContainerBTT__img ContainerBTT__img--right" src="../assets/social/instagram.png" onclick="location.href='https://www.instagram.com/festival_pres_sales/';" />
+          <img class="ContainerBTT__img ContainerBTT__img--right" src="../assets/social/youtube.png" onclick="location.href='https://www.youtube.com/channel/UCRCo48bidvz4M6rO5sgFpTQ';" />
         </div>
         
       </div>
