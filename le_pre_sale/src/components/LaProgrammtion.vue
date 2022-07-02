@@ -49,18 +49,11 @@
 C’est avec autant d’instruments organiques que de machines et synthétiseurs que Rob créé son univers musical et compose une musique cathartique puissante parfois hypnotique à la rythmique tribale et soutenue. </p>
       </div>
       <div class="container__div">
-          <h3 class="container__h3">High Steppa - Sound System<br>(REGGAE / DUB)</h3>
+          <h3 class="container__h3">STEPPER QUAKE<br>(REGGAE / DUB)</h3>
           <picture class="container__picture">
-              <img class="container__picture__img" src="../assets/High_new.jpg" alt="Groupe High Rockers">
+              <img class="container__picture__img" src="../assets/SoundNew.jpg" alt="Groupe Stepper Quake">
           </picture>
-          <p class="container__p">High steppa, en 2013 il commence à acheter, collectionner ses premiers vinyles reggae/roots/dub et ce fait inviter pour ses premières dances à Genève. En 2014 il rencontre Mighty Rockers sound systems avec qui ils fusionnent pour créer le High Rockers sound system et vont évoluer ensemble jusqu’en 2017. Aujourd’hui High Steppa se produit seul avec une énergie positive hors du commun. En passant du roots au dub avant-gardiste il vous fera skanker sec! stay tuned!</p>
-      </div>
-      <div class="container__div">
-          <h3 class="container__h3">A.B.S. - Sound System<br>(REGGAE / DUB)</h3>
-          <picture class="container__picture">
-              <img class="container__picture__img" src="../assets/ABS_SoundSystem.jpg" alt="Groupe A.B.S">
-          </picture>
-          <p class="container__p">Anciennement un crew de graffiti né en 2004, ABS Sound System ce sont 5 amis tous originaires de Billom à coter de Clermont Ferrand. Réunis depuis 2017 avec déjà un demi stack en sono, nous proposons une danse allant du Root au Dub.</p>
+          <p class="container__p">Sound System des montagnes du Jura.</p>
       </div>  
 
 

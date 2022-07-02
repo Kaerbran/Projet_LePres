@@ -36,14 +36,14 @@ Ouvrez grand vos yeux et profitez bien du spectacle !</p>
           <picture class="container__picture">
               <img class="container__picture__img" src="../assets/Anim5_LeonBoesch.jpeg" alt="couple de vigneron dans la vigne">
           </picture>
-          <p class="container__p">Domaine familial en production Biodynamique.</p>
+          <p class="container__p">Domaine familial en production Biodynamie.</p>
       </div>
       <div class="container__div">
           <h3 class="container__h3">Du vin du Domaine Du Clos Saint Landelin</h3>
           <picture class="container__picture">
               <img class="container__picture__img" src="../assets/Anim4_Mure.jpeg" alt="couple de vigneron dans la vigne">
           </picture>
-          <p class="container__p">Domaine familial en production Biodynamique.</p>
+          <p class="container__p">Domaine familial en production Biodynamie.</p>
       </div>
       <div class="container__div">
           <h3 class="container__h3">Brasserie Taal</h3>
@@ -64,7 +64,7 @@ Ouvrez grand vos yeux et profitez bien du spectacle !</p>
           <picture class="container__picture">
               <img class="container__picture__img" src="../assets/claudine-rominger-vigneronne-a-westhalten-document-remis-1552067296.jpeg" alt="">
           </picture>
-          <p class="container__p">Domaine familial en production Biodynamique.</p>
+          <p class="container__p">Domaine familial en production Biodynamie.</p>
       </div>
   </div>
 </template>

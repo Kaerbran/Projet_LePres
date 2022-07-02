@@ -2,7 +2,7 @@
   <div>
     <div class="main">
       <picture class="pictures">
-        <img class="pictures__img" src="../assets/2_Affiche_PreSale.jpg" alt="Affiche du festival de musique, Le Pré Salé">
+        <img class="pictures__img" src="../assets/3_Affiche_PreSale.jpg" alt="Affiche du festival de musique, Le Pré Salé">
       </picture>
       <div class="timer">
         <p class="timer__p">Le Pré Salé commence dans :</p>
@@ -29,7 +29,8 @@
         </div>
         
         <button class="timer__btt" onclick="location.href='https://my.weezevent.com/les-pres-sales';">
-          Billeterie
+          Billeterie <br>
+          <em>10€/pers.</em>
         </button>
 
         <div class="ContainerBTT">
@@ -185,6 +186,11 @@ export default {
         font-size: 1em;
     }
   }
+}
+
+em{
+  text-transform: none;
+  font-size: 16px;
 }
 
 .ContainerBTT{
